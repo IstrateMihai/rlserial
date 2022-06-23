@@ -5,6 +5,7 @@ void SendSerial(char *name, char *data)
 
   Serial.print(name);
   Serial.print(" ");
+  Serial.pritn(data);
   Serial.println();
 }
 void SendSerial(char *name, double data)
